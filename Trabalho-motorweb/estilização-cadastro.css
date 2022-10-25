@@ -1,0 +1,179 @@
+body{
+	
+	border:0px;
+	margin:0px;
+	background:#f4796b;
+}
+
+.header{
+	justify-content: space-between;
+	align-items: center;
+	color:#FFF;
+	background-color:maroon;
+	padding: 15px;
+	height: 30px;
+	border:0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:25px;
+	display: flex;
+	flex-direction: row;
+}
+
+.logo{
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+	align-items: center;
+}
+
+.button {
+	font-size:17px;
+	background-color:transparent;
+	border-color:transparent;
+	color:#FFF;
+	position:relative;
+	cursor: pointer;
+	border-radius: 12px;
+	transition-duration: 0.4s;
+}
+
+.button:hover {
+	background-color: #FFF;
+	color:maroon;
+}
+
+.buttonContainer {
+	align-items: center;
+}
+
+
+
+.search-box{
+	background:#FFF;
+	border-radius:40px;
+	padding:10px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	
+}
+.search-text{
+	background:none;
+	border:0;
+	outline:0;
+	font-size:16px;
+	padding:0;
+	transition:0.5s;
+	width:0;
+
+	
+	}
+.search-btn{
+		width:25px;
+		height:25px;
+		
+		display:flex;
+		justify-content:content;
+		align-items: center;
+		border-radius:50%;
+		
+		cursor:pointer;
+		
+		}
+.search-box:hover > .search-text{
+		width: 200px;
+		padding-left:20px;
+		}
+
+.cadastro{
+	border-radius:12px;
+	padding:10px;
+	align-items: center;
+	width: 370px;
+	min-height: 420px;
+	background-color: maroon;
+	margin-top: 42px;
+	margin-bottom: 42px;
+	margin-left:auto;
+	margin-right: auto;
+	box-shadow: 1px 1px 20px 2px rgba(248, 248, 255, 0.712);
+    margin-inline-start: auto;
+    border-width: inherit;
+		}
+		
+.cadastro > p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:31px;
+	display: flex;
+	justify-content: center;
+	color: #FFF;
+		}				
+
+.cadaster-box{
+	display: flex;
+    margin: auto;
+    border-radius: 5px;
+    width: 362px;
+    border-style: none;
+    background-color: firebrick;
+    color: white;
+		}
+		
+
+.dados-cadastrais{
+	color: #FFF;
+	font-family: system-ui;
+    font-size: small;
+}
+				
+.bt-cadastro{
+	width: 304px;
+    border-style: unset;
+    border-radius: 4px;
+    background-color: brown;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+	cursor: pointer;
+}		
+.rodapé{
+	justify-content: space-between;
+	align-items: center;
+	color:#FFF;
+	background-color:maroon;
+	padding: 15px;
+	height: 152px;
+	border:0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:25px;
+	display: flex;
+	flex-direction: row;
+}
+
+.logo-rodapé{
+	display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    margin-top: -83px;
+}
+
+.list-button{
+	list-style-type: none;
+}
+
+.info-rodapé{
+    margin-right: 555px;
+    margin-top: -7px;
+	padding: 0px;
+    font-size: 20px;
+			}
+.inicio{
+	margin-top: -104px;
+    margin-right: -123px;
+}			
+
+.button-rodapé{
+	
+}
